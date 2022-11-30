@@ -4,6 +4,10 @@ Ref: <a href = "https://medium.com/analytics-vidhya/how-to-determine-the-optimal
 - Calculated all the WSS errors and their corresponding k values and stored it in dictionary and then choose the k for which there is a sharp turn (**Elbow method**).
 - Stored nearest descriptor’s index in ```nearest_features.txt```, so to visualize key points, we can access image number and it’s corresponding key point and descriptor for visualization.
 
+### Scope of improvement
+- [] use TF-IDF for histogram matching
+- [] instead of randomly intializing cluster-centroids, use K-means++ algorithm.
+
 ### Flowchart
 ![Blank diagram](https://user-images.githubusercontent.com/75074904/204826175-3fe5a001-57d5-4d3d-81f9-5cdfb7ea623e.png)
 
